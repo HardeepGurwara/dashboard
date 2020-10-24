@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  background-color: #20222f;
+  border: 1px solid black;
+  color: white;
+}
+.header__followers > h2 {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.header__followers > p {
+  color: #707aa2;
+}
+.header__info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+}
+.header__button > p {
+  color: #707aa2;
+}
